@@ -1,0 +1,21 @@
+.center{
+    text-align: center;
+}
+.line{
+    border-bottom: 1px solid black;
+    margin-bottom: -3px;
+}
+
+.work{
+    margin-left: 30px;
+    margin-top: -3px;
+}
+.right{
+    float: right;
+    
+    
+}
+body{
+    margin-right: 20%;
+    margin-left: 20%;
+}

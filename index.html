@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV Form</title>
+        <style>
+            form input[type="text"]{
+                width: 50%;
+            }
+
+        </style>
+          <script src="data.js"></script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">CV Form</h1>
+        <form id = myform style="text-align: center;  " onsubmit="return valid()" action="./cv.html"> 
+            <label for="first"> First Name:</label><br>
+            <input type = "text" id="first" ><br><br>
+
+            <label for="middle"> Middle Name:</label><br>
+            <input type = "text" id="middle" ><br><br>
+
+            <label for="last"> Last name:</label><br>
+            <input type = "text" id="last" ><br><br>
+
+            <label> Gender: </label><br>
+            <select style="width: 50%;" id = "gender">
+                <option value=""> Choose an Option</option> 
+                <option value="male"> Male</option> 
+                <option value="female">Female</option>
+            </select><br><br>
+
+            <label for = "number"> Phone number:</label><br>
+            <input type = "text" id="number" name ="number" style="width: 50%;" ><br><br>
+
+            <label for = "email"> Email:</label><br>
+            <input type = "text" id="email" placeholder="firstname.lastname@ashesi.edu.gh"><br><br>
+
+            <label for = "address"> Address: </label><br>
+            <input type = "text" id="address"><br><br>
+            <input type="submit" value="Submit">
+           
+        </form>
+        
+      
+        
+    </body>
+   
+
+</html>
